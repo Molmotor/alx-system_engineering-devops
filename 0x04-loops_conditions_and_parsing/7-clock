@@ -1,17 +1,18 @@
 #!/usr/bin/env bash
-#clockin
+# clockin
 
 hour=0
 second=0
 
-while [ "$hour" -lt 12 ]
-do	
- while [ "$second" -lt 60 ]
+while [ "$hour" -le 12 ]
+do
+  echo "hour: $hour"
+  while [ "$second" -lt 60 ]
   do
     echo "$second"
     second=$((second+1))
   done
   second=0
   hour=$((hour+1))
-  echo "hour: $hour"
-done  
+done
+
