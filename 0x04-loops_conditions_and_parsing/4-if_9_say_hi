@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#nomorecomments
+
+counter=1
+while [ "$counter" -le 9 ]
+do	
+ if [ "$counter" -eq 9 ]; then
+   echo "Best School"	 
+   echo "Hi"
+   echo "Best School"
+ else
+   echo "Best School"
+  
+ fi
+ counter=$((counter+1))
+done 
