@@ -4,7 +4,7 @@
 hour=0
 second=0
 
-while [ "$hour" -lt 13 ]
+while [ "$hour" -lt 12 ]
 do	
  while [ "$second" -lt 60 ]
   do
