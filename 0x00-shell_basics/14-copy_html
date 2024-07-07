@@ -1,5 +1,4 @@
 #!/bin/bash
-
 shopt -s nullglob
 
 for file in *.html; do
@@ -7,4 +6,3 @@ for file in *.html; do
         cp "$file" "../"
     fi
 done
-
