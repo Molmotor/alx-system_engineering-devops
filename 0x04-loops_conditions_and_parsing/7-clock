@@ -2,7 +2,7 @@
 # clockin
 
 hour=0
-second=0
+second=1
 
 while [ "$hour" -le 12 ]
 do
@@ -12,7 +12,7 @@ do
     echo "$second"
     second=$((second+1))
   done
-  second=0
+  second=1
   hour=$((hour+1))
 done
 
